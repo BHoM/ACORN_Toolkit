@@ -89,17 +89,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Convert\AdapterId.cs" />
-    <Compile Include="Convert\ToBHoM\Node.cs" />
-    <Compile Include="Convert\ToSoftwareName\Node.cs" />
+    <Compile Include="Compute\CalculateConcreteForce.cs" />
+    <Compile Include="Create\BarFromSomething.cs" />
+    <Compile Include="Query\QueryBar.cs" />
+    <Compile Include="Modify\ChangeBar.cs" />
+    <Compile Include="Compute\DistributionDiagram.cs" />
+    <Compile Include="Modify\TaperedProfile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Compute\" />
-    <Folder Include="Create\" />
-    <Folder Include="Modify\" />
-    <Folder Include="Query\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\ACORN_oM\ACORN_oM.csproj">
       <Project>{f55cc8a5-44cb-4333-bc8a-a0eb6775b1a8}</Project>
